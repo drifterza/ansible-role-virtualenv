@@ -4,7 +4,7 @@
     pre-run: tests/playbooks/pre.yaml
     run: tests/playbooks/run.yaml
     roles:
-      - zuul: openstack/ansible-role-virtualenv
+      - zuul: windmill/ansible-role-virtualenv
 
 # Testing for virtualenv_install_method: pip
 - job:
